@@ -57,7 +57,6 @@ class MainActivity : AppCompatActivity(), NewsItemClicked {
         }
         MySingleton.getInstance(this).addToRequestQueue(jsonObjectRequest)
     }
-    //abcd
 
     override fun onItemClicked(items: News) {
         val builder = CustomTabsIntent.Builder()
